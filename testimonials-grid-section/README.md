@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [{code}]((testimonials-grid-section/index.html))
+- Live Site URL: [live](https://heterotopia52.github.io/front-End-Mentor/testimonials-grid-section/index.html)
 
 ## My process
 
