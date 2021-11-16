@@ -17,7 +17,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -46,12 +45,13 @@ Users should be able to:
 
 ### What I learned
 
-* CSS Grid
-* Tailwindcss basics
+- CSS Grid
+
+- Tailwindcss basics
 
 ### Continued development
 
-Tailwind will be useful in other situations. Will be used definetly.  
+Tailwind will be useful in other situations. Will be used definitely.  
 
 ### Useful resources
 
