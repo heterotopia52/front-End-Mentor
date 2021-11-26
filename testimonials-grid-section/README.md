@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [{code}]((testimonials-grid-section/index.html))
+- Solution URL: [{code}](testimonials-grid-section/index.html)
 - Live Site URL: [live](https://heterotopia52.github.io/front-End-Mentor/testimonials-grid-section/index.html)
 
 ## My process
