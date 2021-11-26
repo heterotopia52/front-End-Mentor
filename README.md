@@ -18,3 +18,10 @@
 
 ![solution](testimonials-grid-section/images/screenshot.png)
 [{code}](testimonials-grid-section/index.html)
+
+<hr>
+
+### [Time tracking dashboard solution](https://heterotopia52.github.io/front-End-Mentor/time-tracking-dashboard/index.html)
+
+![solution](time-tracking-dashboard/images/Screenshot_Time-tracking-dashboard-solution.png)
+[{code}](time-tracking-dashboard/index.html)

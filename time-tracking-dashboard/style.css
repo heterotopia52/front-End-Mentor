@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  body {
+    background: #0f1424;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 335px;
+    margin: 2rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1rem;
+  }
+  
+  li {
+    list-style: none;
+    font-size: 12px;
+    color: #6f76c8;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    color: white;
+  }
+  
+  h2 {
+    font-weight: 300;
+    font-size: 12px;
+  }
+  
+  .title {
+    display: none;
+  }
+
+  
+  .header img {
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+  
+  .current {
+    font-size: 23px;
+  }
+  
+  .profile-name p {
+    font-size: 10px;
+  }
+  
+  .profile-name {
+    padding-top: 6px;
+    text-align: left;
+  }
+  
+  .profile-name h2 {
+    font-size: 18px;
+  }
+  
+  div p:nth-child(2) {
+    -webkit-margin-before: 9px;
+            margin-block-start: 9px;
+    font-size: 10px;
+    color: #6f76c8;
+  }
+  
+  .header {
+    height: 100%;
+    background-color: #1c1f4a;
+    border-radius: 10px;
+  }
+  
+  .profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+    background-color: #4f4fd8;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  .time-trackers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 1rem;
+  }
+  
+  #weeklyTrack {
+    color: white;
+  }
+  
+  .work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .duration-time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-margin-before: 5px;
+            margin-block-start: 5px;
+  }
+  
+  .play {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .study {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .exercise {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .selfcare {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .work-card {
+    height: 100%;
+    background-color: #ff8c66;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    background-image: url(./images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    background-position-y: -35%;
+  }
+  
+  .work-hours {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #1c1f4a;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .play-card {
+    height: 100%;
+    background-color: #56c2e6;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    background-image: url(./images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    background-position-y: -35%;
+  }
+  
+  .play-hours {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #1c1f4a;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .study-card {
+    height: 100%;
+    background-color: #ff5c7c;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    background-image: url(./images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    background-position-y: -35%;
+  }
+  
+  .study-hours {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #1c1f4a;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .exercise-card {
+    height: 100%;
+    background-color: #4acf81;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    background-image: url(./images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    background-position-y: -7%;
+  }
+  
+  .exercise-hours {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #1c1f4a;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .social-card {
+    height: 100%;
+    background-color: #7536d3;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    background-image: url(./images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    background-position-y: -75%;
+  }
+  
+  .social-hours {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #1c1f4a;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .selfcare-card {
+    height: 100%;
+    background-color: #f1c65b;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    background-image: url(./images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    background-position-y: -35%;
+  }
+  
+  .selfcare-hours {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #1c1f4a;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  section img {
+    width: 15px;
+    height: 3px;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .work-card {
+    grid-area: work-card;
+  }
+  
+  .play-card {
+    grid-area: play-card;
+  }
+  
+  .study-card {
+    grid-area: study-card;
+  }
+  
+  .exercise-card {
+    grid-area: exercise-card;
+  }
+  
+  .social-card {
+    grid-area: social-card;
+  }
+  
+  .selfcare-card {
+    grid-area: selfcare-card;
+  }
+  
+  @media (min-width: 460px) {
+    body {
+      text-align: start;
+      font-family: "Rubik", sans-serif;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 7rem auto;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: (1fr)[4];
+          grid-template-columns: repeat(4, 1fr);
+      -ms-grid-rows: (1fr)[2];
+          grid-template-rows: repeat(2, 1fr);
+          grid-template-areas: "header work-card play-card study-card"
+   "header exercise-card social-card selfcare-card";
+      gap: 1.2rem;
+    }
+    .header {
+      height: 100%;
+      background-color: #1c1f4a;
+      border-radius: 10px;
+    }
+    .profile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      border-radius: 10px;
+      padding-top: 2rem;
+      padding-bottom: 5rem;
+    }
+    .header img {
+      width: 75px;
+      height: 75px;
+    }
+    .profile-name h2 {
+      font-size: 2.5rem;
+    }
+    li {
+      font-size: 14px;
+    }
+    section h2 {
+      margin-bottom: 2rem;
+      font-size: 16px;
+    }
+    .time-trackers {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      gap: 1rem;
+      padding: 1.5rem 1rem;
+    }
+    .habits {
+      padding: 1.5rem 1rem;
+    }
+    .duration-time {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .current {
+      font-size: 2.5rem;
+    }
+    .work-card {
+      background-position-x: 95%;
+      background-position-y: -6%;
+    }
+    .play-card {
+      background-position-x: 95%;
+      background-position-y: -6%;
+    }
+    .study-card {
+      background-position-x: 95%;
+      background-position-y: -6%;
+    }
+    .exercise-card {
+      background-position-x: 95%;
+      background-position-y: -1%;
+    }
+    .social-card {
+      background-position-x: 95%;
+      background-position-y: -7%;
+    }
+    .selfcare-card {
+      background-position-x: 95%;
+      background-position-y: -6%;
+    }
+    div p:nth-child(2) {
+      font-size: 12px;
+      color: #6f76c8;
+    }
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+  
+  .attribution a {
+    color: #3e52a3;
+  }
