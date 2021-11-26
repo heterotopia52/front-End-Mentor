@@ -34,8 +34,8 @@ A screenshot of the solution.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [{code}]((single-price-grid-component/index.html))
+- Live Site URL: [live](https://heterotopia52.github.io/front-End-Mentor/single-price-grid-component/index.html)
 
 ## My process
 

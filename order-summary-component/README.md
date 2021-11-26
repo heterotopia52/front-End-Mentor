@@ -31,7 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://heterotopia52.github.io/frontEndMasters/](https://heterotopia52.github.io/frontEndMasters/)
+- Solution URL: [{code}]((order-summary-component/index.html))
+- Live Site URL: [live](https://heterotopia52.github.io/front-End-Mentor/order-summary-component/index.html)
 
 ## My process
 

@@ -18,8 +18,6 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [{code}]((time-tracking-dashboard/index.html))
+- Live Site URL: [live](https://heterotopia52.github.io/front-End-Mentor/time-tracking-dashboard/index.html)
 
 ## My process
 
