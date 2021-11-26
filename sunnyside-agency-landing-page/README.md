@@ -21,7 +21,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [{code}]((sunnyside-agency-landing-page/index.html))
+- Solution URL: [{code}](https://github.com/heterotopia52/front-End-Mentor/blob/master/sunnyside-agency-landing-page/index.html)
 - Live Site URL: [live](https://heterotopia52.github.io/front-End-Mentor/sunnyside-agency-landing-page/index.html)
   
 ## My process
