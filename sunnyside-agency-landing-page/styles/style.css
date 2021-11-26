@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    padding: 2rem;
+    width: 100%;
+}
+
+.burger-icon {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: var(--color-white);
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li:last-child a {
+    padding: 0.8rem 1.6rem;
+    border-radius: 1.5rem;
+    color: hsl(212, 27%, 19%);
+    background: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.3s;
+    font-family: "Fraunces", serif;
+    font-size: 0.8rem;
+}
+
+header nav ul li:last-child a:hover {
+    background: hsla(0, 0%, 100%, 0.37);
+    color: var(--color-white);
+}
+
+.toggle{
+    display: flex !important;
+}
+
+
+/* Container */
+.container {
+    background-image: url("../images/desktop/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro h1 {
+    font-family: "Fraunces", serif;
+    color: var(--color-white);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    font-weight: 900;
+    margin: 4rem 0;
+}
+
+/* services */
+.services {
+    min-height: 100vh;
+}
+
+.services-item {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    background: hsla(42, 92%, 90%, 0.192);
+}
+
+.services-item-content {
+    flex-basis: 50%;
+    margin: auto;
+    padding: 0 10%;
+}
+.services-item-content h2 {
+    font-family: "Fraunces", serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    color: hsl(212, 27%, 19%);
+}
+
+.services-item-content p {
+    color: rgb(148, 143, 143);
+    font-family: "Barlow", sans-serif;
+    line-height: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+.learn-more {
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 0.5rem;
+    position: relative;
+}
+
+.learn-more::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -0.25rem;
+    z-index: -1;
+    width: 100%;
+    height: 0.7rem;
+    border-radius: 1rem;
+    opacity: 0.5;
+    transition: all 0.5s linear;
+}
+
+#brand-learn-more::after {
+    background-color: hsl(51, 100%, 49%);
+}
+
+.learn-more:hover:after {
+    opacity: 1;
+}
+
+#audience-learn-more::after {
+    background-color: hsl(7, 99%, 70%);
+}
+
+.services-item-img {
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
+.services-item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.services-back-image {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3.5rem;
+}
+
+.services-back-image h2 {
+    font-family: "Fraunces", serif;
+    margin-bottom: 1rem;
+}
+
+.services-back-image p {
+    font-family: "Barlow", serif;
+    text-align: center;
+}
+
+#graphic-design {
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    color: hsl(167, 40%, 24%);
+}
+
+#photography {
+    background-image: url("../images/desktop/image-photography.jpg");
+    color: hsl(198, 62%, 26%);
+}
+
+/* testimonials */
+.testimonials {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
+    background: hsla(42, 92%, 90%, 0.192);
+}
+
+.testimonials h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    margin: 3rem 0;
+    letter-spacing: 0.3rem;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.client-img {
+    border-radius: 100%;
+    margin-bottom: 3rem;
+}
+
+.client-comment {
+    color: hsl(198, 62%, 26%);
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+
+.client-name {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.client-job {
+    color: rgb(148, 143, 143);
+    font-family: "Barlow", sans-serif;
+    font-size: 0.8rem;
+}
+
+/* gallery */
+.gallery {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.gallery-item {
+    flex-basis: 25%;
+    height: 100%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* footer */
+footer {
+    background: hsl(168, 32%, 55%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer nav ul {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+footer nav ul li {
+    margin: 0 2rem;
+}
+
+footer nav .logo {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+footer nav .logo img {
+    width: 80%;
+    height: auto;
+    filter: invert(1);
+}
+
+.logo-path {
+    fill: hsl(167, 40%, 24%);
+}
+
+footer a {
+    color: hsl(167, 40%, 24%);
+    font-family: "Barlow", sans-serif;
+    transition: all 0.4s;
+}
+footer a path {
+    transition: all 0.4s;
+}
+
+footer a:hover {
+    color: var(--color-white);
+}
+
+footer a:hover path {
+    fill: var(--color-white);
+}
+
+.icons {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.icons li {
+    margin: 0rem 1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 50%, 50%);
+}
+.attribution a:hover {
+    color: whitesmoke;
+}
+@media screen and (max-width: 660px) {
+    /* header */
+    header nav{
+        position: relative;
+    }
+
+    .toggle{
+        display: none !important;
+    }
+
+    header nav ul {
+        position: absolute;
+        padding: 1rem;
+        top: 4rem;
+        width: 100%;
+        border-radius: 4px 0px 4px 4px;
+        background-color: var(--color-white);
+        flex-wrap: wrap;
+    }
+
+    header nav ul::before{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-bottom: 1.5rem solid var(--color-white);
+        border-left: 1.5rem solid transparent;
+        right: 0;
+        bottom: 100%;
+    }
+
+    header nav ul li{
+        flex-basis: 100%;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    header nav ul li a{
+        color: rgb(148, 143, 143);
+    }
+
+    header nav ul li:last-child a{
+        background-color: hsl(51, 100%, 49%);
+    }
+
+    header nav ul li:last-child a:hover{
+        background-color:  rgb(61, 190, 255);
+    }
+
+    .burger-icon {
+        display: inline-block;
+        transition: opacity 0.3s;
+    }
+
+    .burger-icon:hover{
+        opacity: 0.8;
+    }
+
+    /* features */
+    .services-item {
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+
+    .services-item:first-child {
+        flex-wrap: wrap-reverse;
+    }
+
+    .services-item:last-child {
+        height: 200vh;
+    }
+
+    .services-item-content {
+        flex-basis: 100%;
+        height: 60%;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .services-item-img {
+        flex-basis: 100%;
+        height: 40%;
+    }
+
+    .services-back-image {
+        flex-basis: 100%;
+        height: 50%;
+    }
+
+    .services-back-image h2 {
+        font-size: 2.5rem;
+    }
+
+    .services-back-image p {
+        font-size: 1.2rem;
+    }
+
+    /* testimonials */
+    .testimonials {
+        overflow: hidden;
+    }
+
+    .clients {
+        flex-wrap: wrap;
+    }
+
+    .client {
+        width: 100%;
+        margin-bottom: 8rem;
+    }
+
+    /* gallery */
+    .gallery {
+        flex-wrap: wrap;
+    }
+
+    .gallery-item {
+        flex-basis: 50%;
+        height: 100%;
+        height: 50%;
+    }
+}
