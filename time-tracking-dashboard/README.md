@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [{code}]((time-tracking-dashboard/index.html))
+- Solution URL: [{code}](https://github.com/heterotopia52/front-End-Mentor/blob/master/time-tracking-dashboard/index.html)
 - Live Site URL: [live](https://heterotopia52.github.io/front-End-Mentor/time-tracking-dashboard/index.html)
 
 ## My process
