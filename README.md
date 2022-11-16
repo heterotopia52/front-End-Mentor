@@ -32,3 +32,10 @@
 
 ![solution](sunnyside-agency-landing-page/images/sunnyside-agency-screenshot.png)
 [{code}](sunnyside-agency-landing-page/index.html)
+
+<hr>
+
+### [Advice generator app solution](https://heterotopia52.github.io/front-End-Mentor/advice-generator-app/index.html)
+
+![solution](advice-generator-app/images/screenshot_advice-generator-app.png)
+[{code}](advice-generator-app/index.html)
